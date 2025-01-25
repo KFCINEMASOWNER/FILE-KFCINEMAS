@@ -23,7 +23,7 @@ API_HASH = environ.get("API_HASH", "d5850aeef7dd3d01fe6b698c0a0d4be8")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', 'https://envs.sh/fSY.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1981280736').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "KF_Movies_Files_bot") # without @
 PORT = environ.get("PORT", "8080")
 
